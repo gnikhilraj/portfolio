@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 export const LoadingScreen = ({onComplete}) => {
 
     const [text, setText] = useState("");
-    const fullText = "Nikhil Raj Gazibanda";
+    const fullText = "Hey this is Nikhil Raj Gazibanda.\nWelcome to my website!";
 
     useEffect(()=>
     {
@@ -29,7 +29,7 @@ export const LoadingScreen = ({onComplete}) => {
 
 
     return <div className="fixed inset-0 z-50 bg-black text-white-100 flex flex-col items-center justify-center">
-        <div className="mb-4 text-4xl font-mono font-bold">
+        <div className="mb-4 text-4xl font-mono font-bold whitespace-pre-wrap text-center">
             {text} <span className="animate-blink ml-1"> |</span>
 
         </div>
