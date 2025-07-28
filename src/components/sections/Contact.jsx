@@ -11,9 +11,7 @@ export const Contact = ()=>{
         }
     )
 
-    const SERVICE_ID = "service_bhcw5h7" ;
-    const TEMP_ID = "template_lqsamck";
-    const PUBLIC_KEY = "Jed4Vz19TRIaOtY9s"; 
+
     const handleSubmit = (e) =>{
         e.preventDefault()
 
