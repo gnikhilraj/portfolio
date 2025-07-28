@@ -8,7 +8,7 @@ export const Home = () => {
         <div className="flex flex-col md:flex-row items-center text-center md:text-left gap-8">
           {/* Text Section */}
           <div className="max-w-xl">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent leading-tight">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight">
               Hi, this is Nikhil Raj
             </h1>
 

@@ -6,6 +6,7 @@ import { Navbar } from './components/sections/Navbar'
 import { MobileMenu } from './components/sections/Mobilemenu'
 import { Home } from './components/sections/Home'
 import "./index.css"
+import { About } from './components/sections/About'
 function App() {
   
   const [isLoaded , setIsLoaded] = useState(false);
@@ -25,6 +26,7 @@ function App() {
           <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
           <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
           <Home/>
+          <About/>
 
           
         </div>
