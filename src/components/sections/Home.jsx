@@ -1,9 +1,12 @@
+import { RevealOnScroll } from "../RevealOnScroll";
+
 export const Home = () => {
   return (
     <section
       id="home"
       className="min-h-screen flex items-center justify-center relative"
     >
+      <RevealOnScroll>
       <div className="z-10 px-4">
         <div className="flex flex-col md:flex-row items-center text-center md:text-left gap-8">
           {/* Text Section */}
@@ -48,6 +51,7 @@ export const Home = () => {
               </a>
             </div>
       </div>
+      </RevealOnScroll>
     </section>
   );
 };
