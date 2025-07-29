@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import snowImage from '../../assets/snow.jpg';  
 
 export const Home = () => {
   return (
@@ -28,7 +29,7 @@ export const Home = () => {
           {/* Image Section */}
           <div className="w-40 h-40 md:w-60 md:h-60 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
             <img
-              src="/src/assets/snow.jpg"
+               src={snowImage} 
               alt="Nikhil Raj"
               className="w-full h-full object-cover"
             />
