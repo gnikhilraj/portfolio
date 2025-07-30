@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import snowImage from '../../assets/snow.jpg';  
+// import snowImage from '../../public/snow.jpg';  
 
 export const Home = () => {
   return (
@@ -26,14 +26,14 @@ export const Home = () => {
             
           </div>
 
-          {/* Image Section */}
+          {/* Image Section
           <div className="w-40 h-40 md:w-60 md:h-60 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
             <img
-               src={snowImage} 
+                src="/snow.jpg" 
               alt="Nikhil Raj"
               className="w-full h-full object-cover"
             />
-          </div>
+          </div> */}
           
         </div>
         <div className="flex justify-center md:justify-start space-x-4">
