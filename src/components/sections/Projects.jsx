@@ -14,8 +14,9 @@ export const Projects = ()=>{
 Implemented robust backend systems and APIs to support key functionalities of the AstroSarathi platform, including user authentication, data processing, and integration with third-party services.
 Tools and technologies used: Express, Mongoose , MongoDB , ReactJS , NodeJS , Postman, Swagger, Git , Github.
 </p>
-                    <div className="flex flex-warp gap-2 mb-4">
-                        {["React" , "NodeJS" , "MongoDB"].map((tech,key)=>(
+                    <div className="flex flex-wrap gap-2 mb-4">
+                        {[ "Express", "Mongoose" , "MongoDB" , "ReactJS" , "NodeJS" , "Postman", "Swagger", "Git" , "Github"]
+                        .map((tech,key)=>(
                             <span 
                             key={key}
                             className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -40,8 +41,8 @@ Tools and technologies used: Express, Mongoose , MongoDB , ReactJS , NodeJS , Po
 Spearheaded the development and deployment of the Lenslink project, a comprehensive web application designed to build a bridge between freelance photographers and customers.
 Tools and technologies used: JavaScript , MySQL , Postman , HTML, CSS, Visual Studio Code.
 </p>
-                    <div className="flex flex-warp gap-2 mb-4">
-                        {["React" , "NodeJS" , "MongoDB"].map((tech,key)=>(
+                    <div className="flex flex-wrap gap-2 mb-4 ">
+                        {[ "JavaScript" , "MySQL" , "Postman" , "HTML", "CSS", "Visual Studio Code"].map((tech,key)=>(
                             <span 
                             key={key}
                             className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20

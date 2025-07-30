@@ -74,7 +74,8 @@ Security Management.
                             <div className="space-y-4 text-grey-300">
                                 <div>
                                     <h4 className="font-semibold">Software Engineer at Capgemini (2021 - 2024)</h4>
-                                    <p>To be added </p>
+                                    <p> Led front-end development for a high-traffic banking portal used by over 1 million users, delivering a 25% 
+                                        faster and 30% more responsive interface using ReactJS and JavaScript. </p>
                                 </div>
                             </div>
 
