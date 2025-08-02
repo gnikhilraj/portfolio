@@ -12,7 +12,7 @@ export const Projects = ()=>{
                     <h3 className="text-xl font-bold mb-2">Astrosarthi</h3>
                     <p className="text-gray-400 mb-4">Led as a full-stack developer in the development and deployment of the AstroSarathi project, providing end-to-end technical solutions and overseeing the hosting of the website.
 Implemented robust backend systems and APIs to support key functionalities of the AstroSarathi platform, including user authentication, data processing, and integration with third-party services.
-Tools and technologies used: Express, Mongoose , MongoDB , ReactJS , NodeJS , Postman, Swagger, Git , Github.
+
 </p>
                     <div className="flex flex-wrap gap-2 mb-4">
                         {[ "Express", "Mongoose" , "MongoDB" , "ReactJS" , "NodeJS" , "Postman", "Swagger", "Git" , "Github"]
@@ -39,7 +39,6 @@ Tools and technologies used: Express, Mongoose , MongoDB , ReactJS , NodeJS , Po
                     <h3 className="text-xl font-bold mb-2">LensLink </h3>
                     <p className="text-gray-400 mb-4">Contributed to the development and implementation of LensLink, a web-based platform connecting freelance photographers with potential clients, streamlining the hiring process.
 Spearheaded the development and deployment of the Lenslink project, a comprehensive web application designed to build a bridge between freelance photographers and customers.
-Tools and technologies used: JavaScript , MySQL , Postman , HTML, CSS, Visual Studio Code.
 </p>
                     <div className="flex flex-wrap gap-2 mb-4 ">
                         {[ "JavaScript" , "MySQL" , "Postman" , "HTML", "CSS", "Visual Studio Code"].map((tech,key)=>(
